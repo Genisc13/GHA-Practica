@@ -25,5 +25,6 @@ const registerNewUser = async ({ email, password, name, surname, role }: User) =
     const data = {token, user: checkIs};
     return data;
   };
+  
 
 export {registerNewUser, loginUser};
